@@ -40,10 +40,10 @@ To improve the Extension, we collect **anonymous, non-personal** usage data via 
 - Local data: Used solely to save/restore workspaces and remember settings
 - Analytics data: Used solely to understand feature usage patterns and improve the Extension
 
-## Data Deletion
+## Data Deletion and Opt-Out
 
 - **Local data**: Delete individual workspaces in the popup, or uninstall the Extension to remove all data
-- **Analytics data**: Contact us to request deletion of your anonymous analytics identifier
+- **Analytics data**: Uninstalling the Extension stops all data collection immediately. To delete previously collected anonymous data, contact us
 
 ## Permissions
 
@@ -64,7 +64,7 @@ We may update this privacy policy from time to time. Changes will be posted on t
 
 ## Contact
 
-If you have questions about this privacy policy, please open an issue on our GitHub repository or contact us at [cchhll0210@gmail.com].
+If you have questions about this privacy policy, please open an issue on our GitHub repository or contact us at cchhll0210@gmail.com.
 
 ---
 
@@ -110,10 +110,10 @@ Tab Organizer（"本扩展"）致力于保护您的隐私。本隐私政策说�
 - 本地数据：仅用于保存/恢复工作空间和记住设置
 - 分析数据：仅用于了解功能使用模式和改进扩展
 
-## 数据删除
+## 数据删除与退出
 
 - **本地数据**：在弹窗中删除工作空间，或卸载扩展以删除所有数据
-- **分析数据**：联系我们可请求删除您的匿名分析标识符
+- **分析数据**：卸载扩展后将立即停止收集任何使用数据。如需删除已收集的匿名数据，请联系我们
 
 ## 权限说明
 
@@ -134,7 +134,7 @@ Tab Organizer（"本扩展"）致力于保护您的隐私。本隐私政策说�
 
 ## 联系方式
 
-如果您对本隐私政策有疑问，请在我们的 GitHub 仓库中提出 issue 或通过 [cchhll0210@gmail.com] 联系我们。
+如果您对本隐私政策有疑问，请在我们的 GitHub 仓库中提出 issue 或通过 cchhll0210@gmail.com 联系我们。
 
 ---
 
@@ -180,10 +180,10 @@ Tab Organizer（「本擴充功能」）致力於保護您的隱私。本隱私�
 - 本機資料：僅用於儲存/還原工作空間和記住設定
 - 分析資料：僅用於了解功能使用模式和改進擴充功能
 
-## 資料刪除
+## 資料刪除與退出
 
 - **本機資料**：在彈出視窗中刪除工作空間，或解除安裝擴充功能以刪除所有資料
-- **分析資料**：聯絡我們可請求刪除您的匿名分析識別碼
+- **分析資料**：解除安裝擴充功能後將立即停止收集任何使用資料。如需刪除已收集的匿名資料，請聯絡我們
 
 ## 權限說明
 
@@ -204,7 +204,7 @@ Tab Organizer（「本擴充功能」）致力於保護您的隱私。本隱私�
 
 ## 聯絡方式
 
-如果您對本隱私政策有疑問，請在我們的 GitHub 儲存庫中提出 issue 或透過 [cchhll0210@gmail.com] 聯絡我們。
+如果您對本隱私政策有疑問，請在我們的 GitHub 儲存庫中提出 issue 或透過 cchhll0210@gmail.com 聯絡我們。
 
 ---
 
@@ -250,10 +250,10 @@ Tab Organizer（「本拡張機能」）は、お客様のプライバシーの�
 - ローカルデータ：ワークスペースの保存・復元と設定の記憶のみに使用
 - 分析データ：機能の使用パターンの把握と拡張機能の改善のみに使用
 
-## データの削除
+## データの削除とオプトアウト
 
 - **ローカルデータ**：ポップアップでワークスペースを削除するか、拡張機能をアンインストールしてすべてのデータを削除
-- **分析データ**：お問い合わせいただければ、匿名分析識別子の削除をリクエストできます
+- **分析データ**：拡張機能をアンインストールすると、すべてのデータ収集が即座に停止されます。収集済みの匿名データの削除をご希望の場合はお問い合わせください
 
 ## 権限について
 
@@ -274,7 +274,7 @@ Tab Organizer（「本拡張機能」）は、お客様のプライバシーの�
 
 ## お問い合わせ
 
-本プライバシーポリシーについてご質問がある場合は、GitHubリポジトリでissueを作成するか、[cchhll0210@gmail.com] までご連絡ください。
+本プライバシーポリシーについてご質問がある場合は、GitHubリポジトリでissueを作成するか、cchhll0210@gmail.com までご連絡ください。
 
 ---
 
@@ -320,10 +320,10 @@ Tab Organizer("본 확장 프로그램")는 사용자의 개인정보 보호에 
 - 로컬 데이터: 워크스페이스 저장/복원 및 설정 기억에만 사용
 - 분석 데이터: 기능 사용 패턴 파악 및 확장 프로그램 개선에만 사용
 
-## 데이터 삭제
+## 데이터 삭제 및 수집 중단
 
 - **로컬 데이터**: 팝업에서 워크스페이스를 삭제하거나, 확장 프로그램을 제거하여 모든 데이터 삭제
-- **분석 데이터**: 문의 시 익명 분석 식별자 삭제를 요청할 수 있습니다
+- **분석 데이터**: 확장 프로그램을 제거하면 모든 데이터 수집이 즉시 중단됩니다. 이미 수집된 익명 데이터의 삭제를 원하시면 문의해 주세요
 
 ## 권한 설명
 
@@ -344,4 +344,4 @@ Tab Organizer("본 확장 프로그램")는 사용자의 개인정보 보호에 
 
 ## 문의
 
-본 개인정보 처리방침에 대해 궁금한 점이 있으시면 GitHub 저장소에서 issue를 생성하거나 []으로 연락해 주세요.
+본 개인정보 처리방침에 대해 궁금한 점이 있으시면 GitHub 저장소에서 issue를 생성하거나 cchhll0210@gmail.com으로 연락해 주세요.
