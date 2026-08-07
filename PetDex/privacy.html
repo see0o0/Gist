@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="PetDex Privacy Policy for version 1.1.0 and later."
+    />
+    <title>PetDex Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --background: #f4f7f1;
+        --surface: #fffdf8;
+        --text: #29352e;
+        --muted: #657269;
+        --green: #315b43;
+        --green-soft: #e4efe7;
+        --border: #dce5dc;
+        --accent: #c88a32;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at top left, #e4efe7 0, transparent 32rem),
+          var(--background);
+        color: var(--text);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+        font-size: 16px;
+        line-height: 1.7;
+      }
+
+      main {
+        width: min(880px, calc(100% - 32px));
+        margin: 40px auto;
+        padding: clamp(28px, 6vw, 64px);
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        box-shadow: 0 20px 60px rgb(49 91 67 / 10%);
+      }
+
+      header {
+        padding-bottom: 28px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .brand {
+        display: inline-block;
+        margin-bottom: 28px;
+        color: var(--green);
+        font-size: 1.1rem;
+        font-weight: 750;
+        letter-spacing: 0.02em;
+      }
+
+      h1,
+      h2 {
+        color: var(--green);
+        line-height: 1.25;
+      }
+
+      h1 {
+        margin: 0 0 10px;
+        font-size: clamp(2rem, 6vw, 3.25rem);
+        letter-spacing: -0.035em;
+      }
+
+      h2 {
+        margin: 44px 0 14px;
+        font-size: 1.45rem;
+        letter-spacing: -0.015em;
+      }
+
+      p,
+      ul {
+        margin: 0 0 18px;
+      }
+
+      ul {
+        padding-left: 1.35rem;
+      }
+
+      li + li {
+        margin-top: 7px;
+      }
+
+      .updated {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .summary {
+        margin-top: 28px;
+        padding: 20px 22px;
+        border-left: 4px solid var(--accent);
+        border-radius: 0 16px 16px 0;
+        background: #fff7e9;
+      }
+
+      code {
+        padding: 0.15em 0.42em;
+        border-radius: 6px;
+        background: var(--green-soft);
+        color: var(--green);
+        font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+        font-size: 0.9em;
+      }
+
+      footer {
+        margin-top: 48px;
+        padding-top: 24px;
+        border-top: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 600px) {
+        main {
+          width: min(100% - 20px, 880px);
+          margin: 10px auto;
+          border-radius: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="brand" aria-label="PetDex">
+          <span>PetDex</span>
+        </div>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: August 7, 2026</p>
+      </header>
+
+      <p class="summary">
+        This policy applies to PetDex version 1.1.0 and later. PetDex is a
+        lightweight pet discovery and collection game that runs in a supported
+        browser's sidebar.
+      </p>
+
+      <section>
+        <h2>Summary</h2>
+        <p>
+          PetDex uses limited, anonymous product analytics to understand whether
+          people open the extension, start and complete an exploration, discover
+          pets, view the collection, and return on another day. Analytics is
+          enabled by default and can be disabled at any time in PetDex Settings.
+        </p>
+        <p>
+          PetDex does not collect names, email addresses, account information,
+          browsing history, visited URLs, website or page content, user input,
+          communications, mouse movements, keyboard activity, or precise
+          interaction trails.
+        </p>
+      </section>
+
+      <section>
+        <h2>Information Stored Locally</h2>
+        <p>
+          PetDex stores the following information in the extension's local
+          browser storage (<code>chrome.storage.local</code>):
+        </p>
+        <ul>
+          <li>Discovered pet identifiers and first-discovery dates</li>
+          <li>Number of completed explorations</li>
+          <li>Daily discovery bonus state</li>
+          <li>Selected interface language</li>
+          <li>Collection milestone state</li>
+          <li>Analytics enabled or disabled preference</li>
+          <li>A randomly generated installation-scoped analytics UUID</li>
+          <li>Local first-open and returning-use lifecycle dates</li>
+          <li>Internal storage schema version</li>
+        </ul>
+        <p>
+          The analytics UUID is generated locally with
+          <code>crypto.randomUUID()</code>. It is not derived from or linked to a
+          name, email address, account, browser account, device identifier, or
+          other personal identity information. Uninstalling PetDex or clearing
+          its extension data removes these locally stored values.
+        </p>
+        <p>
+          The user's language preference remains in local extension storage. When
+          analytics is enabled, PetDex sends only the current interface language
+          as a coarse product-analysis field. It is not linked to personal
+          identity information and is not used for advertising or user profiling.
+        </p>
+      </section>
+
+      <section>
+        <h2>Anonymous Product Analytics</h2>
+        <p>
+          When analytics is enabled, PetDex sends the following events to
+          Mixpanel, acting as PetDex's analytics service provider:
+        </p>
+        <ul>
+          <li>Extension opened: app version, interface language, and coarse user stage</li>
+          <li>Game started: whether it is the first exploration</li>
+          <li>Game completed: whether it is the first exploration and a coarse duration range</li>
+          <li>Pet discovered: new or duplicate, rarity, whether the daily bonus applied, and a coarse collection-progress range</li>
+          <li>Collection viewed: a coarse collection-progress range</li>
+          <li>Returning use: a coarse range of days since first open</li>
+        </ul>
+        <p>
+          Each event is associated only with the locally generated random
+          analytics UUID. PetDex uses these events for aggregate product analysis
+          and product improvement.
+        </p>
+        <p>
+          PetDex does not use Mixpanel People Profiles, Autocapture, Session
+          Replay, heatmaps, automatic page-view tracking, or IP-based geolocation
+          enrichment. It does not use analytics for advertising, cross-service
+          tracking, sale of data, eligibility decisions, or profiling a natural
+          person.
+        </p>
+      </section>
+
+      <section>
+        <h2>Analytics Choice</h2>
+        <p>
+          Anonymous analytics is enabled by default. Users can open PetDex
+          Settings and turn off <strong>Anonymous analytics</strong> at any time.
+          After it is turned off:
+        </p>
+        <ul>
+          <li>PetDex stops sending new analytics events.</li>
+          <li>Events generated while analytics is disabled are not queued or sent later.</li>
+          <li>The Memory Match game, discoveries, collection, language setting, and Daily Discovery continue to work normally.</li>
+        </ul>
+        <p>
+          Turning analytics off does not automatically delete anonymous events
+          that Mixpanel processed before the setting was changed.
+        </p>
+      </section>
+
+      <section>
+        <h2>Information PetDex Does Not Collect</h2>
+        <p>PetDex does not collect or transmit:</p>
+        <ul>
+          <li>Names, email addresses, usernames, account identifiers, or other personal identity information</li>
+          <li>Authentication credentials, financial information, payment information, health information, or precise location</li>
+          <li>Browsing history, visited domains or URLs, website content, page content, cookies, or web requests</li>
+          <li>Form data, user-generated text, user input, or personal communications</li>
+          <li>Mouse coordinates, keystrokes, scrolling activity, or detailed interaction recordings</li>
+          <li>Pet collection records, first-discovery dates, or Daily Discovery state. The current interface language is the only language-related field included in anonymous analytics.</li>
+        </ul>
+        <p>
+          PetDex has no account system, advertising network, payment service,
+          cloud synchronization, or business backend.
+        </p>
+      </section>
+
+      <section>
+        <h2>Data Sharing and Limited Use</h2>
+        <p>
+          PetDex does not sell or rent data. The only data transmitted to a third
+          party is the limited anonymous product analytics described above, sent
+          to Mixpanel solely to operate aggregate PetDex product analytics and
+          improve PetDex's user-facing experience.
+        </p>
+        <p>
+          PetDex's use and transfer of data complies with the Chrome Web Store
+          User Data Policy, including its Limited Use requirements. Data is not
+          used or transferred for personalized advertising, retargeting,
+          creditworthiness, lending, or purposes unrelated to PetDex's single
+          purpose.
+        </p>
+      </section>
+
+      <section>
+        <h2>Permissions and Network Access</h2>
+        <p>PetDex requests only:</p>
+        <ul>
+          <li><code>sidePanel</code>, to display the game in the browser sidebar</li>
+          <li><code>storage</code>, to save local game progress, preferences, and anonymous analytics state</li>
+          <li>Host access to <code>https://api-js.mixpanel.com/*</code>, used only to send the disclosed anonymous analytics events over HTTPS</li>
+        </ul>
+        <p>
+          PetDex does not use content scripts and does not access the pages users
+          visit. All executable code, including the Mixpanel client, is bundled
+          inside the extension package. PetDex does not download or execute remote
+          code.
+        </p>
+      </section>
+
+      <section>
+        <h2>Retention and Deletion</h2>
+        <p>
+          Local PetDex data remains on the device until the user clears extension
+          data or uninstalls PetDex. Disabling analytics stops future event
+          transmission but retains local game progress and the analytics
+          preference.
+        </p>
+        <p>
+          Anonymous events already processed by Mixpanel may remain according to
+          the PetDex Mixpanel project's configured retention and deletion
+          settings. They are not automatically removed when the local extension
+          is uninstalled because PetDex has no account linking the installation
+          to a person.
+        </p>
+      </section>
+
+      <section>
+        <h2>Changes</h2>
+        <p>
+          If PetDex's data practices change, this policy and the applicable
+          extension-store disclosures will be updated before those changes are
+          released.
+        </p>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>
+          Users can contact the publisher through the support channel provided on
+          the applicable PetDex store listing.
+        </p>
+      </section>
+
+      <footer>PetDex Privacy Policy · Version 1.1.0 and later</footer>
+    </main>
+  </body>
+</html>
